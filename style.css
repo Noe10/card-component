@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrap {
+max-width: 100%;
+background-color: rgb(202, 211, 211);
+margin: 10%;
+padding: 10%;
+}
+.card {
+    max-width:80%;
+    min-height: auto;
+    display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    margin:auto;
+    margin-top: 10%;
+    border-radius: 10px 10px;
+    
+}
+img {
+    border-radius: 10px 0px 0px 10px;
+    width: 50%;
+}
+.contend .title{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+}
+.contend .title p {
+    letter-spacing: 0.25em;
+    font-size: 14px;
+}
+.contend .text {
+    padding: 5% 10% 10%;
+    font-size: 20px;
+}
+.contend .text h1 {
+    
+    font-family: 'Fraunces', serif;
+    
+}
+.contend .text p {
+    text-align: justify;
+    margin-top: 10%;
+    margin-bottom:10% ;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
+    color: gray;
+}
+.price {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    font-family: 'Fraunces', serif;
+   
+}
+.price p > span {
+    font-size: 30px;
+    color: rgb(8, 116, 80);
+    font-weight: 600;
+    margin-right: 25px;
+    font-family: 'Fraunces', serif;
+}
+.price p:last-child{
+    font-size: 14px;
+    text-decoration:line-through;
+    font-weight: 300;
+
+}
+
+svg {
+    position: absolute;
+    z-index: 2;
+    margin-top: 1.2%;
+    margin-left: 5%;
+}
+input{
+    width: 100%;
+    padding: 6%;
+    border-radius: 10px 10px;
+    background-color: rgb(8, 116, 80);
+    font-family: 'Montserrat', sans-serif;
+    color: beige;
+    border: none;
+}
+
