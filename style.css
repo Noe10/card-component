@@ -4,7 +4,6 @@
 }
 .wrap {
 max-width: 100%;
-background-color: rgb(202, 211, 211);
 margin: 10%;
 padding: 10%;
 }
@@ -19,11 +18,14 @@ padding: 10%;
     margin:auto;
     margin-top: 10%;
     border-radius: 10px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.05);
     
 }
 img {
     border-radius: 10px 0px 0px 10px;
     width: 50%;
+    
 }
 .contend .title{
     margin-top: 10%;
@@ -74,7 +76,6 @@ img {
     font-weight: 300;
 
 }
-
 svg {
     position: absolute;
     z-index: 2;
@@ -90,4 +91,57 @@ input{
     color: beige;
     border: none;
 }
-
+/*MEDIA RESPONSIBE MOBILE*/
+@media (min-width: 200px) and (max-width: 850px){
+* {
+    margin: 0px;
+    padding: 0px;
+}    
+.wrap {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 10%;
+    padding: 0px;
+}
+.card {
+    max-width:80%;
+    min-height: auto;
+    background-color: rgb(255, 255, 255);
+    margin:auto;
+    margin-top: 10%;
+    border-radius: 10px 10px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.05);
+}
+img {
+    display: none;
+}
+.sustituir{
+    
+    display:block;
+    width:100%;       
+    min-height:250px;   
+    background: url(image/image-product-mobile.jpg);
+    background-size:cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.contend .title p {
+    font-size: 12px;
+}
+.contend .text {
+    margin-top: 10px;
+    padding: 2% 10% ;
+    font-size: 12px;
+}
+.contend .text p {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
+    color: gray;
+}    
+}
